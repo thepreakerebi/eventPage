@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <header class="space-within">
+                <nav>
+                    <div id="main-nav">
+                        <figure id="logo">
+                            <img id="logomark" src="./assets/logomark.svg" alt="logo symbol" loading="eager" />
+                            <figcaption id="logoword">UX SUMMIT</figcaption>
+                        </figure>
+                        <figure id="menu-icon" onclick="openMenu()">
+                            <img src="./assets/hamburger.svg" alt="hamburger menu icon" loading="eager" />
+                        </figure>
+                    </div>
+                    <ul id="nav-links">
+                        <li>
+                            <a class="navlink" href="#venue">Venue</a>
+                        </li>
+                        <li>
+                            <a class="navlink" href="#agenda">Agenda</a>
+                        </li>
+                        <li>
+                            <a class="navlink" href="#speakers">Speakers</a>
+                        </li>
+                        <li>
+                            <a class="navlink" href="#sponsors">Sponsors</a>
+                        </li>
+                        <li>
+                            <a class="navlink" href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="navlink" id="btn-link" href="#">Register</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section id="hero-section">
+                    <h5 id="topTag">FIRST EDITION</h5>
+                    <h1 class="hero-text" id="big-hero-tile">UX Design Summit 2023</h1>
+                    <h2 class="hero-text" id="second-hero-title">Elevating User Experiences in the Digital Age</h2>
+                    <h3 class="hero-text" id="third-hero-text">Join us at the UX Design Summit 2023 to explore the latest trends, strategies, and innovations in creating exceptional user experiences across digital platforms.</h3>
+                    <section id="call-to-actions">
+                        <button id="primary-btn" class="btn">REGISTER</button>
+                        <button id="secondary-btn" class="btn">BECOME A SPONSOR</button>
+                    </section>
+                </section>
+                <section id="video">
+                    <video width="1312" height="746.83" autoplay loop>
+                        <source src="./assets/conference.mp4" type="video/mp4">
+                    </video>
+                </section>
+            </header>
+            <section class="space-within" id="venue">
+                <h2 class="title-capitalize" id="venue-title">venue, Date, & time</h2>
+                <section id="second-section-images">
+                    <figure class="second-section-images" id="first-image-container">
+                        <img id="first-image" class="second-section-img" src="./assets/venue1.png" alt="Building venue for the ux conference" loading="eager" width="1200" height="801" />
+                    </figure>
+                    <figure class="second-section-images" id="second-image-container">
+                        <img id="second-image" class="second-section-img" src="./assets/venue2.png" alt="Building venue for the ux conference" loading="eager" width="899" height="600" />
+                    </figure>
+                    <figure class="second-section-images" id="third-image-container">
+                        <img id="third-image" class="second-section-img" src="./assets/venue3.png" alt="Building venue for the ux conference" loading="eager" width="768" height="416" />
+                    </figure>
+                    <figure class="second-section-images" id="fourth-image-container">
+                        <img id="fourth-image" class="second-section-img" src="./assets/venue4.png" alt="Building venue for the ux conference" loading="eager" width="1280" height="720" />
+                    </figure>
+                    <figure class="second-section-images" id="fifth-image-container">
+                        <img id="fifth-image" class="second-section-img" src="./assets/venue5.png" alt="Building venue for the ux conference" loading="eager" width="922" height="672" />
+                    </figure>
+                    <figure class="second-section-images" id="sixth-image-container">
+                        <img id="sixth-image" class="second-section-img" src="./assets/venue6.png" alt="Building venue for the ux conference" loading="eager" width="800" height="533" />
+                    </figure>
+                </section>
+                <section id="venue-date">
+                    <section id="location-and-texts">
+                        <section id="location">
+                            <figure class="location-icon" id="location-icon-container-desktop">
+                                <img src="./assets/locationmark-desktop.svg" alt="location icon" loading="eager" />
+                            </figure>
+                            <figure class="location-icon" id="location-icon-container-mobile">
+                                <img src="./assets/location-mobile.svg" alt="location icon" loading="eager" />
+                            </figure>
+                            <h3 id="location-text">City Convention Center, 123 Main Street, Anytown, USA</h3>
+                        </section>
+                        <section id="location-description">
+                            <p class="description">The City Convention Center, located at 123 Main Street in Anytown, USA, is a premier destination for hosting impactful events. With its modern and spacious facilities, it serves as a dynamic hub for gatherings that bring together professionals, creatives, and innovators from various industries.</p><br> 
+
+                            <p class="description">The venue's strategic location provides easy accessibility, and its versatile spaces are equipped to accommodate diverse event formats, from conferences to workshops and exhibitions.</p><br>
+                                
+                            <p class="description">Just as the Grand Palais éphémère stands as a symbol of cultural 
+                                innovation, the City Convention Center sets the stage for inspiring 
+                                collaborations and memorable experiences.</p><br>
+                                
+                            <p class="description">As a testament to its capabilities, the venue hosted the second edition of NFT Anytown, which attracted over 18,000 attendees, cementing its reputation as a destination for successful and impactful events.</p>
+                        </section>
+                    </section>
+                    <section id="divider"></section>
+                    <section id="date-and-time">
+                        <section id="date" class="datetime">
+                            <figure class="calendar-icon" id="calendar-icon-container-desktop">
+                                <img src="./assets/calendar-desktop.svg" alt="calendar icon" loading="eager" />
+                            </figure>
+                            <figure class="calendar-icon" id="calendar-icon-container-mobile">
+                                <img src="./assets/calendar-mobile.svg" alt="calendar icon" loading="eager" />
+                            </figure>
+                            <h4 class="date-text">Date: October 15-17, 2023</h4>
+                        </section>
+                        <section id="time" class="datetime">
+                            <figure class="clock-icon" id="clock-icon-container-desktop">
+                                <img src="./assets/clock-desktop.svg" alt="clock icon" loading="eager" />
+                            </figure>
+                            <figure class="clock-icon" id="clock-icon-container-mobile">
+                                <img src="./assets/clock-mobile.svg" alt="clock icon" loading="eager" />
+                            </figure>
+                            <h4 class="date-text">9:00 AM - 6:00 PM (PST)</h4>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="space-within" id="agenda">
+                <h2 id="agenda-title" class="title-capitalize">Agenda</h2>
+                <section id="agendas">
+                    <section id="first-day" class="day">
+                        <h4 class="day-tag">Day 1</h4>
+                        <section id="day1" class="day-agenda">
+                            <section class="agenda">
+                                <h5 class="agenda-text">Keynote: "Designing for Empathy and Inclusivity" by Jane Smith</h5>
+                                <section class="time">
+                                    <figure id="time-icon-container-desktop" class="time-icon-container">
+                                        <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                    </figure>
+                                    <figure id="time-icon-container-mobile" class="time-icon-container">
+                                        <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                    </figure>
+                                    <h5 class="time-text">9:00 AM - 10:00 aM (PST)</h5>
+                                </section>
+                            </section>
+                            <section class="agenda">
+                                <h5 class="agenda-text">Workshop: "Creating Delightful Microinteractions"</h5>
+                                <section class="time">
+                                    <figure id="time-icon-container-desktop" class="time-icon-container">
+                                        <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                    </figure>
+                                    <figure id="time-icon-container-mobile" class="time-icon-container">
+                                        <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                    </figure>
+                                    <h5 class="time-text">10:30 AM - 12:00 PM (PST)</h5>
+                                </section>
+                            </section>
+                            <section class="agenda">
+                                <h5 class="agenda-text">Panel Discussion: "The Future of UX: Emerging Technologies"</h5>
+                                <section class="time">
+                                    <figure id="time-icon-container-desktop" class="time-icon-container">
+                                        <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                    </figure>
+                                    <figure id="time-icon-container-mobile" class="time-icon-container">
+                                        <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                    </figure>
+                                    <h5 class="time-text">12:30 pM - 3:00 PM (PST)</h5>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                        <section id="second-day" class="day">
+                            <h4 class="day-tag">Day 2</h4>
+                            <section id="day2" class="day-agenda">
+                                <section class="agenda">
+                                    <h5 class="agenda-text">Keynote: "Navigating Complexity: UX Challenges in E-Commerce" by John Doe</h5>
+                                    <section class="time">
+                                        <figure id="time-icon-container-desktop" class="time-icon-container">
+                                            <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <figure id="time-icon-container-mobile" class="time-icon-container">
+                                            <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <h5 class="time-text">9:00 AM - 10:00 aM (PST)</h5>
+                                    </section>
+                                </section>
+                                <section class="agenda">
+                                    <h5 class="agenda-text">Workshop: "Usability Testing Techniques"</h5>
+                                    <section class="time">
+                                        <figure id="time-icon-container-desktop" class="time-icon-container">
+                                            <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <figure id="time-icon-container-mobile" class="time-icon-container">
+                                            <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <h5 class="time-text">10:30 AM - 12:00 PM (PST)</h5>
+                                    </section>
+                                </section>
+                                <section class="agenda">
+                                    <h5 class="agenda-text">Networking Lunch and Demos</h5>
+                                    <section class="time">
+                                        <figure id="time-icon-container-desktop" class="time-icon-container">
+                                            <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <figure id="time-icon-container-mobile" class="time-icon-container">
+                                            <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <h5 class="time-text">12:30 pM - 3:00 PM (PST)</h5>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section id="third-day" class="day">
+                            <h4 class="day-tag">Day 3</h4>
+                            <section id="day3" class="day-agenda">
+                                <section class="agenda">
+                                    <h5 class="agenda-text">Interactive Design Challenge</h5>
+                                    <section class="time">
+                                        <figure id="time-icon-container-desktop" class="time-icon-container">
+                                            <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <figure id="time-icon-container-mobile" class="time-icon-container">
+                                            <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <h5 class="time-text">9:00 AM - 10:00 aM (PST)</h5>
+                                    </section>
+                                </section>
+                                <section class="agenda">
+                                    <h5 class="agenda-text">Panel Discussion: "Crafting Consistent User Journeys"</h5>
+                                    <section class="time">
+                                        <figure id="time-icon-container-desktop" class="time-icon-container">
+                                            <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <figure id="time-icon-container-mobile" class="time-icon-container">
+                                            <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <h5 class="time-text">10:30 AM - 12:00 PM (PST)</h5>
+                                    </section>
+                                </section>
+                                <section class="agenda">
+                                    <h5 class="agenda-text">Closing Keynote: "Design Ethics in a Digital World" by Alex Johnson</h5>
+                                    <section class="time">
+                                        <figure id="time-icon-container-desktop" class="time-icon-container">
+                                            <img src="./assets/otherclock-desktop.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <figure id="time-icon-container-mobile" class="time-icon-container">
+                                            <img src="./assets/otherclock-mobile.svg" alt="clock icon" loading="eager" />
+                                        </figure>
+                                        <h5 class="time-text">12:30 pM - 3:00 PM (PST)</h5>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                </section>
+            </section>
+            <section class="space-within" id="speakers">
+                <h2 id="speakers-title" class="title-capitalize">Speakers</h2>
+                <section id="speakers-list">
+                    <section class="speaker-card" id="speaker1-container">
+                        <figure id="speaker1-img-container" class="speaker">
+                            <img class="speaker-img" src="./assets/speaker1.png" alt="Picture of Jane Smith" loading="eager" width="320" height="480" />
+                        </figure>
+                        <figcaption class="speaker-details">
+                            <h5 class="speaker-name">Jane Smith</h5>
+                            <h6 class="speaker-work">VP of User Experience, Techno Inc.</h6>
+                        </figcaption>
+                    </section>
+                    <section class="speaker-card" id="speaker2-container">
+                        <figure id="speaker2-img-container" class="speaker">
+                            <img class="speaker-img" src="./assets/speaker2.png" alt="Picture of John Doe" loading="eager" width="530" height="351" />
+                        </figure>
+                        <figcaption class="speaker-details">
+                            <h5 class="speaker-name">John Doe</h5>
+                            <h6 class="speaker-work">UX Design Evangelist, DesignLab</h6>
+                        </figcaption>
+                    </section>
+                    <section class="speaker-card" id="speaker3-container">
+                        <figure id="speaker3-img-container" class="speaker">
+                            <img class="speaker-img" src="./assets/speaker3.png" alt="Picture of Emily Brown" loading="eager" width="353" height="530" />
+                        </figure>
+                        <figcaption class="speaker-details">
+                            <h5 class="speaker-name">Emily Brown</h5>
+                            <h6 class="speaker-work">Product Design lead, Gator labs</h6>
+                        </figcaption>
+                    </section>
+                    <section class="speaker-card" id="speaker4-container">
+                        <figure id="speaker4-img-container" class="speaker">
+                            <img class="speaker-img" src="./assets/speaker4.png" alt="Picture of Alex Johnson" loading="eager" width="530" height="353" />
+                        </figure>
+                        <figcaption class="speaker-details">
+                            <h5 class="speaker-name">Alex Johnson</h5>
+                            <h6 class="speaker-work">UX Engineer, theproductpeople</h6>
+                        </figcaption>
+                    </section>
+                </section>
+            </section>
+            <section class="space-within" id="sponsors">
+                <h2 id="sponsors-title" class="title-capitalize">Sponsors</h2>
+                <section id="sponsors-content">
+                    <h3 id="sponsors-text">Proudly sponsored by</h3>
+                    <section id="sponsors-logos-desktop" class="sponsors-logos">
+                        <figure class="sponsor-logo">
+                            <img src="./assets/figma-desktop.svg" alt="Figma logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/pinterest-desktop.svg" alt="pinterest logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/webflow-desktop.svg" alt="Webflow logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/invision-desktop.svg" alt="Invision logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/user-zoom-desktop.svg" alt="Userzoom logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/qualtrics-desktop.svg" alt="Qualtrics logo" loading="eager" />
+                        </figure>
+                    </section>
+                    <section id="sponsors-logos-mobile" class="sponsors-logos">
+                        <figure class="sponsor-logo">
+                            <img src="./assets/figma-mobile.svg" alt="Figma logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/pinterest-mobile.svg" alt="pinterest logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/webflow-mobile.svg" alt="Webflow logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/invision-mobile.svg" alt="Invision logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/user-zoom-mobile.svg" alt="Userzoom logo" loading="eager" />
+                        </figure>
+                        <figure class="sponsor-logo">
+                            <img src="./assets/qualtrics-mobile.svg" alt="Qualtrics logo" loading="eager" />
+                        </figure>
+                    </section>
+                </section>
+            </section>
+            <section class="space-within" id="contact">
+                <h2 id="contact-title" class="title-capitalize">Contact</h2>
+                <section id="form-field">
+                    <form>
+                        <legend>for inquiries, fill the form below:</legend>
+                        <fieldset id="main-inputs">
+                            <fieldset id="form-inputs">
+                                <label for="full-name">
+                                    FULL NAME <br> <input placeholder="What's your full name?" type="text" name="full-name" id="full-name" required />
+                                </label><br>
+                                <label for="email">
+                                    EMAIL <br> <input placeholder="What's your email?" type="email" name="email" required id="email" pattern="^[\w\.-]+@[\w\.-]+\.\w+$" />
+                                </label><br>
+                                <label for="message">
+                                    MESSAGE <br> <textarea name="message" id="message" placeholder="What's up?"></textarea>
+                                </label>
+                            </fieldset>
+                            <input id="send-btn" type="submit" value="SUBMIT" />
+                        </fieldset>
+                    </form>
+                </section>
+            </section>
+            <footer>
+                <section id="socials">
+                    <small class="capitalize">Socials:</small>
+                    <figure>
+                        <img src="./assets/instagram-desktop.svg" alt="Instagram logo" loading="eager" />
+                    </figure>
+                    <figure>
+                        <img src="./assets/twitter-desktop.svg" alt="Twitter logo" loading="eager" />
+                    </figure>
+                </section>
+                <section id="copyright">
+                    <small class="capitalize">Copyright</small>
+                    <figure>
+                        <img src="./assets/copyright.svg" alt="copyright icon" loading="eager" />
+                    </figure>
+                    <small class="capitalize">UX SUMMIT 2023, All Rights Reserved,</small>
+                </section>
+            </footer>
+        </main>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
