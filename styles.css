@@ -183,7 +183,7 @@ nav {
 }
 
 #video {
-    margin-top: 100px;
+    margin-top: 68px;
 }
 
 .title-capitalize {
@@ -504,6 +504,7 @@ footer {
     border-top: 1px solid var(--on-body-color);
     padding: 20px 0;
     margin: 0 16px;
+    align-items: center;
 }
 
 #socials {
